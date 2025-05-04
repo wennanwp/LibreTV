@@ -2,6 +2,7 @@ name: Upstream Sync
 
 permissions:
   contents: write
+  workflows: write # <--- 添加这个权限来允许修改 workflow 文件
 
 on:
   schedule:
